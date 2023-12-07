@@ -3,101 +3,96 @@
 
 <br/>
 
-### Il s'agit de la mise en place d'une plateforme visant à répertorier tous les élèves de l'école 42 à l'échelle mondiale, en utilisant l'API de l'intranet de l'école. 
+This involves setting up a platform aiming to list all students from School 42 globally, using the school's intranet API.
 
 <br/>
 
-L'objectif final est de créer un classement des meilleurs élèves. 
+The ultimate goal is to create a ranking of the best students.
 
-Voici les détails des différentes étapes du projet :
-
-<br/>
-
-
-### Utilisation de l'API de l'intranet :
+Here are the details of the different project stages:
 
 <br/>
 
-L'API de l'intranet de l'école 42 est utilisée pour collecter les informations sur tous les élèves. Cela peut inclure des détails tels que le nom, le prénom, les scores, les projets réalisés, etc.
+### Use of the Intranet API:
 
 <br/>
 
-
-### Front-end avec React-JS :
-
-<br/>
-
-Le développement du front-end est réalisé en utilisant React-JS, une bibliothèque JavaScript populaire pour la construction d'interfaces utilisateur. Cela permet de créer une application web interactive et réactive.
-
-<br/>
-
-### Mise en page réactive avec CSS vanilla :
-
-<br/>
-
-La mise en page de l'interface utilisateur est rendue réactive en utilisant du CSS vanilla, c'est-à-dire sans l'utilisation de frameworks tels que Bootstrap. Cela offre une personnalisation complète de la conception.
+The School 42 intranet API is used to gather information about all students. This may include details such as name, surname, scores, completed projects, etc.
 
 
 <br/>
 
-### Back-end avec Node-JS et fonctions serverless :
+### Front-end with React-JS:
 
 <br/>
 
-Le back-end de la plateforme est mis en place en utilisant Node-JS. De plus, des fonctions serverless sont utilisées, ce qui signifie que le code est exécuté à la demande en réponse à des événements spécifiques sans nécessiter de serveurs permanents.
-
-
-<br/>
-
-### Utilisation de Prisma avec PostgreSQL :
+Front-end development is carried out using React-JS, a popular JavaScript library for building user interfaces. This allows for the creation of an interactive and responsive web application.
 
 <br/>
 
-Prisma, un outil d'accès aux bases de données, est utilisé en conjonction avec une base de données PostgreSQL. Cela facilite la gestion et l'interaction avec la base de données, en fournissant une interface type-safe pour les requêtes et les mutations de données.
+### Responsive layout with Vanilla CSS:
 
 <br/>
 
-
-### Intégration d'Axios pour les requêtes API :
-
-<br/>
-
-Axios, une bibliothèque JavaScript populaire, est intégré pour faciliter les requêtes API entre le front-end et le back-end. Cela permet la communication efficace entre les différentes parties de l'application.
+The user interface layout is made responsive using Vanilla CSS, meaning without the use of frameworks such as Bootstrap. This provides complete customization of the design.
 
 <br/>
 
-### Réalisation de la maquette avec Figma :
+### Back-end with Node-JS and serverless functions:
 
 <br/>
 
-La maquette du site est créée à l'aide de Figma, une plateforme de conception d'interface utilisateur collaborative. Figma facilite la visualisation et la communication du design avant la mise en œuvre.
+The back-end of the platform is set up using Node-JS. Additionally, serverless functions are employed, meaning the code is executed on-demand in response to specific events without the need for permanent servers.
 
 <br/>
 
-En résumé, ce projet combine des technologies front-end et back-end modernes pour créer une plateforme mondiale répertoriant les élèves de l'école 42, avec un accent particulier sur la réactivité de l'interface utilisateur, l'utilisation de fonctions serverless, et une gestion efficace des données avec Prisma et PostgreSQL.
+### Use of Prisma with PostgreSQL:
+
+<br/>
+
+Prisma, a database access tool, is used in conjunction with a PostgreSQL database. This facilitates the management and interaction with the database, providing a type-safe interface for data queries and mutations.
+
+<br/>
+
+### Integration of Axios for API requests:
+
+<br/>
+
+Axios, a popular JavaScript library, is integrated to facilitate API requests between the front-end and back-end. This enables efficient communication between different parts of the application.
+
+<br/>
+
+### Creation of the mockup with Figma:
+
+<br/>
+
+The site's mockup is created using Figma, a collaborative user interface design platform. Figma makes it easy to visualize and communicate the design before implementation.
+
+<br/>
+
+In summary, this project combines modern front-end and back-end technologies to create a global platform listing School 42 students, with a particular focus on user interface responsiveness, the use of serverless functions, and effective data management with Prisma and PostgreSQL.
 
 <br/>
 
 ![al-text](42Rank1.PNG)
 
-### Page de connexion
+Login Page
 
 <br/>
 
 ![al-text](42Rank2.PNG)
 
-### Page de chargement
+Loading Page
 
 <br/>
 
 ![al-text](42Rank3.PNG)
 
-### Classement des élèves
+Students Ranking
 
 <br/>
 
 ![al-text](42Rank4.PNG)
 
-### Choix des campus
-
+Campus Selection
 
