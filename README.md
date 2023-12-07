@@ -24,3 +24,4 @@ La maquette du site est créée à l'aide de Figma, une plateforme de conception
 En résumé, ce projet combine des technologies front-end et back-end modernes pour créer une plateforme mondiale répertoriant les élèves de l'école 42, avec un accent particulier sur la réactivité de l'interface utilisateur, l'utilisation de fonctions serverless, et une gestion efficace des données avec Prisma et PostgreSQL.
 
 
+![al-text](42Rank1.PNG)
