@@ -1,3 +1,6 @@
+![al-text](42Rank1.PNG)
+
+
 Il s'agit de la mise en place d'une plateforme visant à répertorier tous les élèves de l'école 42 à l'échelle mondiale, en utilisant l'API de l'intranet de l'école. L'objectif final est de créer un classement des meilleurs élèves. Voici les détails des différentes étapes du projet :
 
 Utilisation de l'API de l'intranet :
@@ -24,4 +27,10 @@ La maquette du site est créée à l'aide de Figma, une plateforme de conception
 En résumé, ce projet combine des technologies front-end et back-end modernes pour créer une plateforme mondiale répertoriant les élèves de l'école 42, avec un accent particulier sur la réactivité de l'interface utilisateur, l'utilisation de fonctions serverless, et une gestion efficace des données avec Prisma et PostgreSQL.
 
 
-![al-text](42Rank1.PNG)
+![al-text](42Rank2.PNG)
+
+![al-text](42Rank3.PNG)
+
+![al-text](42Rank4.PNG)
+
+
