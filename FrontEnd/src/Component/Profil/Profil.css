@@ -1,0 +1,258 @@
+.profil_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+    margin-top: 10px;
+    width: 85%; 
+}
+
+.profil_container:first-child {
+    margin-top: 40px;
+}
+
+.profil_container:last-child {
+    margin-bottom: 40px;
+}
+
+
+.profil_div
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+#rank
+{
+    height: 100%;
+    width: 15%;
+    min-width: 100px;
+    background-color: #F7F7F7;
+    margin-right: 10px;
+    border-radius: 9px;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+   /* border: 0.2vh solid black; */
+}
+
+#Profil
+{
+    height: 100%;
+    width: 70%;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 500px;
+
+    /* border: 0.2vh solid black; */
+}
+
+#Profil a {
+    height: 80px;
+}
+
+.profil_img
+{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.profil_info
+{
+    height: 100%;
+    background-color: #F7F7F7;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: black;
+    border-radius: 5px;
+    width: 300px;
+}
+.p_profil
+{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+.name
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.surname
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    height: 30px;   
+}
+
+.p_profil_grey
+{
+    font-size: 15px;
+    font-weight: 700;
+    color : #929292;
+}
+
+
+
+
+
+
+@media (max-width: 576px){
+    .profil_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+    margin-top: 10px;
+    width: 95%; 
+
+}
+
+.profil_container:first-child {
+    margin-top: 40px;
+}
+
+.profil_container:last-child {
+    margin-bottom: 40px;
+}
+
+
+.profil_div
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+   
+}
+
+#rank
+{
+    height: 100%;
+    width: 20%;
+    min-width: 0px;
+    background-color: #F7F7F7;
+    margin-right: 10px;
+    border-radius: 9px;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+   /* border: 0.2vh solid black; */
+}
+
+#Profil
+{
+    height: 100%;
+    width: 80%;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-width: 200px;
+
+
+    /* border: 0.2vh solid black; */
+}
+
+.profil_img
+{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.profil_info
+{
+    height: 100%;
+    background-color: #F7F7F7;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: black;
+    border-radius: 5px;
+    width: 150px;
+
+}
+.p_profil
+{
+    margin: 0;
+}
+
+
+
+.name
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.surname
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    height: 30px;   
+}
+
+.p_profil_grey
+{
+    color : #929292;
+}
+
+
+}

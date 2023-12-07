@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Reset des marges et du remplissage par défaut */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Utilisation de la police Poppins depuis Google Fonts oui*/
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Arrière-plan de base */
+  body {
+    background-color: white;
+  }
+  
+  /* Couleur de texte et de lien de base */
+  body {
+    color: #333;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Centrage du contenu verticalement */
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  

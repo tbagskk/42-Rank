@@ -1,0 +1,147 @@
+.Header
+{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292D39;
+}
+
+.logo_container
+{
+    margin-left: 10px;
+}
+
+.logo
+{
+    height: 55px;
+    margin-left: 100px;
+}
+
+.navbar_container {
+    display: flex;
+    height: 100%;
+    background-color: #F7F7F7;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 450px;
+}
+
+.navbar_logout {
+    display: flex;
+    text-decoration: none;
+    color: #292D39;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.navbar_logout:hover {
+    text-decoration: none;
+    background-color: #CCCCCC;
+}
+
+.navbar_logout:active {
+    text-decoration: none;
+    background-color: #AAAAAA;
+}
+
+
+@media (min-width: 0px) and (max-width: 300px)
+{
+    .Header
+    {
+        height: 60px;
+    }
+    .logo
+    {
+    height: 40px;
+    }    
+
+}
+
+
+@media (min-width: 301px) and (max-width: 500px)
+{
+    .Header
+    {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo
+    {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    }    
+
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 950px)
+{
+    .Header
+    {
+        height: 12%;
+    }
+    .logo
+    {
+    height: 100px;
+    }  
+}
+
+@media (min-width: 501px) and(max-width: 600px)
+{
+    .Header
+    {
+        height: 14%;
+        background-color: red;
+    }
+    .logo
+    {
+    height: 100px;
+    } 
+}
+
+
+
+/* all */
+
+@media (max-width: 950px)
+{
+    .navbar_container {
+        display: none;
+        
+    }
+    .Header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 576px){
+    .logo{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .navbar_logout{
+        display: none;
+    }
+}

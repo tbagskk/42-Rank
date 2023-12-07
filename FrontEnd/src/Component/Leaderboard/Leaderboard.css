@@ -1,0 +1,58 @@
+.leaderboard
+{
+    height: 100%;
+    width: 70%;
+    min-width: 700px;
+    background-color: #292D39;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:auto;
+  
+}
+
+.leaderboard::-webkit-scrollbar 
+{
+    width: 12px;
+    
+}
+.leaderboard::-webkit-scrollbar-thumb 
+{
+    background-color: #D9D9D9; 
+    height: 100px;
+    border-radius: 5px;
+}  
+
+@media (min-width:1601px)
+{
+    .leaderboard
+    {
+        height: 100%;
+        width: 70%;
+        min-width: 700px;
+        background-color: #292D39;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow-y:auto;
+      
+    }
+}
+
+@media(min-width:1500px) and (max-width:1600px){
+    .leaderboard
+    {
+        height: 100%;
+        width: 70%;
+        min-width: 300px;
+        background-color: #292D39;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow-y:auto;
+      
+    }
+  }

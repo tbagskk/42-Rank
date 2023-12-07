@@ -1,0 +1,55 @@
+
+@media (min-width:401px) and (max-width: 500px)
+{
+    .leaderboard
+{
+    height: 100%;
+    min-width: 100%;
+    min-height: 300px;
+
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:auto;
+}
+
+}
+
+@media (min-width:0px) and (max-width: 400px)
+{
+    .leaderboard
+{
+    height: 100%;
+    min-width: 100%;
+    min-height: 300px;
+
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:auto;
+}
+
+}
+
+
+@media (min-width:501px) and (max-width: 950px)
+{
+    .leaderboard
+{
+    height: 100%;
+    min-width: 100%;
+    min-height: 300px;
+
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:auto;
+}
+
+}

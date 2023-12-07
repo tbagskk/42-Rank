@@ -1,0 +1,97 @@
+.login_container
+{
+    border-radius: 5px;
+    height: 450px;
+    width: 450px;
+    position: fixed;
+    top: 100;
+    right: 100;
+    z-index: 6;
+    background-color: #292D39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_logo
+{
+    height: 120px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+
+}
+
+.login_title
+{
+    font-weight: 600;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.login_button
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_button:hover
+{
+    text-decoration: none;
+    background-color: #eeeeee;
+}
+
+.login_error
+{
+    color:red;
+    margin-top: 50px;
+}
+
+
+@media (min-width:300px) and (max-width: 950px)
+{
+    .login_container{
+        height: 400px;
+        width: 80%;
+        max-width: 400px;
+    }
+    .login_title{
+        font-size: 12px;
+    
+    }
+}
+
+
+
+.loader_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #12141A;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
