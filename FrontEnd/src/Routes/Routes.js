@@ -38,20 +38,20 @@ export default function AppRoutes(){
         }
     }
 
-    useEffect(() => {
-        if (code && !Cookies.get("id"))
-            getToken();
-    });
+    // useEffect(() => {
+    //     if (code && !Cookies.get("id"))
+    //         getToken();
+    // });
 
-    if (Cookies.get("id"))
+    // if (Cookies.get("id"))
         return (
             <Routes>
                 <Route path="/" element={<App students={students} setStudents={setStudents}/>}/>
                 <Route path="/login" element={<Login />}/>
             </Routes>
         )
-    else
-        return (
-            <Login error={errored} loading={loading}/>
-        )
+    // else
+    //     return (
+    //         <Login error={errored} loading={loading}/>
+    //     )
 }
